@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XemzHome</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #333;
+      color: #333;
+    }
+    .hero {
+      position: relative;
+      background-image: url('https://files.catbox.moe/42v2c8.jpg'); /* Ganti dengan gambar kamu */
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      background: rgba(0,0,0,0.4);
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+    .hero button {
+      margin-top: 20px;
+      background-color: orange;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    .categories, .featured {
+      padding: 20px;
+    }
+    .categories h2, .featured h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 15px;
+    }
+    .grid-item {
+      text-align: center;
+    }
+    .grid-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .featured .product {
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .add-to-cart {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .add-to-cart button {
+      background-color: orange;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div>
+      <button onclick="window.location.href='https://yourshoplink.com'">Lanjutkan ke Xemz Store</button>
+    </div>
+  </div>
+
+  <div class="categories">
+    <h2></h2>
+    <div class="grid">
+      <div class="grid-item">
+        <img src="https://files.catbox.moe/mv011r.jpg" alt="Bras">
+        <p></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://files.catbox.moe/5r56a9.jpg" alt="Undies">
+        <p></p>
+      </div>
+      <div class="grid-item">
+        <img src="https://files.catbox.moe/n7vy44.jpg" alt="Active">
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="       ">
+    <h2>        </h2>
+    <div class="grid">
+      <div class="product">
+        <img src="https://files.catbox.moe/esv8dk.jpg" alt="No-Wire Push-Up">
+    </div>
+  </div>
+
+</body>
+</html>
